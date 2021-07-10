@@ -1,0 +1,36 @@
+.testProgress {
+  width: 60%;
+  background-color: white;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  border: 1px solid black;
+}
+
+.testBar {
+  width: 0%;
+  height: 35px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+.classLabel {
+  text-align: center;
+  line-height: 35px;
+  color: #000;
+}
+
+select {
+  height: 30px;
+}
+
+.btn {
+  padding: 4px 10px;
+  color: #000;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  select {
+    margin-top: 20px;
+  }
+}
