@@ -14,6 +14,23 @@
             <input type="button" id="button3" class="btn">
 			<input type="button" id="button4" class="btn">
         </div>
-        <script src="javascript/endpoints.js" type="text/javascript"></script>   
+        <script src="javascript/endpoints.js" type="text/javascript"></script> 
+        <script src="javascript/ssm.min.js"> type="text/javascript"</script> 
+        <script>
+            ssm.addStates([
+            {
+                    id: 'mobile',
+                    maxWidth: 767,
+                    onEnter: function(){
+                    }
+                },
+                {
+                id: 'desktop',
+                    minWidth: 767,
+                    onEnter: function(){
+                }
+            }
+        ])
+        </script> 
     </body>
 </html>
