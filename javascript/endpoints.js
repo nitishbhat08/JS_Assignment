@@ -114,5 +114,5 @@ function moveBar(value)
 }
 
 //ajax call for getting values from server
-xhttp.open("GET", "http://pb-api.herokuapp.com/bars");
+xhttp.open("GET", "//pb-api.herokuapp.com/bars");
 xhttp.send();
